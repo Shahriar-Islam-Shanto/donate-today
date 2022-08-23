@@ -117,12 +117,16 @@ input {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    border: 4px solid #FF5959;
+    border: 6px solid #FF5959;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: auto;
     padding: auto;
+}
+
+span {
+    color: #FF5959;
 }
 
 .timer {
