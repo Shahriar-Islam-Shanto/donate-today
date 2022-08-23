@@ -6,7 +6,7 @@ h1 {
     font-size: 65px;
 }
 
-button {
+.donate-button {
     color: white;
     background-color: #FF5959;
     border: none;
@@ -18,7 +18,51 @@ button {
 .banner-section {
     text-align: center;
     color: white;
+    background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 20px;
+
+
+}
+
+.amount-button {
+    color: #707070;
+    background-color: #FAFAFA;
+    border: none;
+    padding: 44px 25px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.amount-button:hover {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    padding: 44px 25px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.amount-button:focus {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    padding: 44px 25px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.amount-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 380px;
+
+}
+
+.donate-today {
+    margin-top: 100px;
+    text-align: center;
 }
